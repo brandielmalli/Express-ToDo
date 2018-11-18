@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  background: #d9d9d9;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 50px;
+  font-weight: 300px;
+  margin: 0;
+}
+
+button{
+  font-family: 'Dosis', sans-serif;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #999;
+  width: 100px;
+}
+button:hover {
+  transform: scale(1.05)
+}
+input{
+  font-size: 20px;
+  width:400px;
+  margin: 4% auto;
+  text-align: center;
+  border: 1px solid #999;
+}
+
+#submit{
+  font-size: 20px;
+  width:100px;
+  margin: 4% auto;
+  text-align: center;
+  border: 1px solid #999;
+}
+
+ul{
+  list-style: none;
+}
+
+.container {
+  background: #aac4ef;
+  width: 600px;
+  height: 520px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: #222 1px 3px 25px 1px;;
+}
+
+.wrapper {
+  margin: 20px;
+  justify-content: center;
+  display:grid;
+}
+
+.navbar {
+  box-shadow: #222 1px 3px 25px 1px;;
+  background: #415e70;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/***************************************
+
+*****************************************/
+.checked{
+  text-decoration: line-through;
+}
+
+.hide{
+  display: none;
+}
+
+#modal{
+  display: none;
+}
+
+#modal.display{
+  display: block;
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: 500px;
+  padding: 1.5em 1em 1em 1em;
+  border-radius: 10px;
+  border: 1px solid black;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  z-index: 4;
+  max-width: 540px;
+  font-size: 20px;
+  color: black;
+}
+
+/***************************************
+MEDIA QUERIES
+*****************************************/
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+
+}
